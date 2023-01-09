@@ -45,6 +45,13 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      'unread': '#f6fafd',
+      'for3': '#093377',
+      'redDot': '#fe5655',
+      'hoverDm': '#e5eff9',
+      'graynot': '#6f727c',
+      'graynotdark': '#5d616a',
+      'time': '#a3a6ac',
     }),
     columns: {
       auto: 'auto',
@@ -233,7 +240,15 @@ module.exports = {
       150: '1.5',
       200: '2',
     },
-    container: {},
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
     content: {
       none: 'none',
     },
