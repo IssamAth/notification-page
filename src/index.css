@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@media (min-width: 768px) {
+    html {
+        height: 100%;
+    }
+    body {
+        background-color: #f9fafe;
+        height: 100%;
+    }
+
+    #root {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+}
