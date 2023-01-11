@@ -4,7 +4,7 @@
 
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
   presets: [],
   darkMode: 'media', // or 'class'
@@ -52,6 +52,9 @@ module.exports = {
       'graynot': '#6f727c',
       'graynotdark': '#5d616a',
       'time': '#a3a6ac',
+      'bluenotf': '#1e3161',
+      'bluehover': 'hsl(219, 85%, 26%)',
+      'bluebg': '#f9fafe'
     }),
     columns: {
       auto: 'auto',
@@ -211,6 +214,7 @@ module.exports = {
     borderWidth: {
       DEFAULT: '1px',
       0: '0px',
+      1: '0.5px',
       2: '2px',
       4: '4px',
       8: '8px',
@@ -396,6 +400,7 @@ module.exports = {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
+      bigsm: ['0.99rem', { lineHeight: '1.22rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
       lg: ['1.125rem', { lineHeight: '1.75rem' }],
       xl: ['1.25rem', { lineHeight: '1.75rem' }],
