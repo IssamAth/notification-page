@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-###Mobiles
+### Mobiles
 ![Screenshot 2023-01-12 135158](https://user-images.githubusercontent.com/49134454/212071755-e64f5140-247f-4258-b365-82ed6c91cc8f.png)
 
 
-#Desktops and Tablets
+### Desktops and Tablets
 
 ![Screenshot 2023-01-12 135108](https://user-images.githubusercontent.com/49134454/212071823-63cb4b5e-4184-4876-9f30-6d7720334d13.png)
 
